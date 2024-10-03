@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sun, Moon, Mail, Code, User, Briefcase, Award } from 'lucide-react';
+import { Mail, Code, Briefcase, Award } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -26,17 +26,17 @@ const Portfolio: React.FC = () => {
               <p className="text-xl text-gray-700">Software Developer | B. Tech in Electrical & Computer Engineering</p>
               <p className="text-gray-700">Self-driven and detail-oriented software developer with a proactive approach to engineering tasks and deep enthusiasm for technological advancements.</p>
               <div className="flex space-x-4">
-                <Button variant="primary" size="lg" className="rounded-full hover:bg-blue-700 transition-colors duration-200" asChild>
+                <Button variant="default" size="lg" className="rounded-full hover:bg-blue-700 transition-colors duration-200" asChild>
                   <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
                     GitHub
                   </a>
                 </Button>
-                <Button variant="primary" size="lg" className="rounded-full hover:bg-blue-700 transition-colors duration-200" asChild>
+                <Button variant="default" size="lg" className="rounded-full hover:bg-blue-700 transition-colors duration-200" asChild>
                   <a href="https://www.linkedin.com/in/nickilvishwaams" target="_blank" rel="noopener noreferrer">
                     LinkedIn
                   </a>
                 </Button>
-                <Button variant="primary" size="lg" className="rounded-full hover:bg-blue-700 transition-colors duration-200" asChild>
+                <Button variant="default" size="lg" className="rounded-full hover:bg-blue-700 transition-colors duration-200" asChild>
                   <a href="mailto:nickilvishwaams@gmail.com">
                     <Mail className="mr-2 h-4 w-4 inline" /> Email
                   </a>
